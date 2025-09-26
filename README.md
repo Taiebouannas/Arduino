@@ -22,5 +22,3 @@ Ouannas Taieb
 
 ## Licence
 Licence MIT
-
-![Schéma de câblage](SensorLED/SensorLED.png)
