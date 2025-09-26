@@ -1,33 +1,47 @@
-# sensorLCD
+# Capteur de Distance avec Alarme et LCD I2C
 
-Un projet Arduino simple qui mesure la distance avec un capteur ultrason et l'affiche sur un écran LCD.
+Ce projet Arduino mesure la distance à l'aide d'un capteur à ultrasons et affiche les résultats sur un écran LCD I2C. Si un objet s'approche trop près (distance inférieure à une valeur de danger définie), une alarme sonore est déclenchée et un avertissement s'affiche sur l'écran.
 
-## Matériel
+## Matériel nécessaire
 
-- Carte Arduino (Uno, Nano, etc.)  
-- Capteur ultrason (ex : HC-SR04)  
-- Écran LCD I2C (16x2)  
-- Fils de connexion (jumpers)  
+- Arduino Uno (ou compatible)
+- Capteur à ultrasons (HC-SR04 ou similaire)
+- Écran LCD I2C 16x2
+- Buzzer ou alarme sonore
+- Résistances et câbles de connexion
+- Breadboard
 
-## Description
+## Schéma de câblage
 
-Le projet lit la distance depuis le capteur ultrason et affiche la valeur en centimètres sur l'écran LCD. La distance est également affichée dans le Moniteur Série. L'écran LCD se met à jour toutes les 500 millisecondes pour afficher la dernière mesure.
+| Composant        | Pin Arduino      |
+|-----------------|----------------|
+| Capteur Trigger | Pin 7           |
+| Capteur Echo    | Pin 7           |
+| Buzzer / Alarme | Pin 8           |
+| LCD SDA         | A4 (Arduino Uno)|
+| LCD SCL         | A5 (Arduino Uno)|
 
-## Connexions
+> **Remarque :** L’adresse I2C de l’écran est configurée sur `0x27`. Vérifiez l’adresse de votre module avec un scanner I2C si nécessaire.
 
-- Capteur ultrason Trigger/Echo → Broche D7  
-- LCD SDA → Broche A4  
-- LCD SCL → Broche A5  
-- LCD VCC → 5V  
-- LCD GND → GND  
+## Librairies utilisées
 
-## Usage
+- [Wire.h](https://www.arduino.cc/en/Reference/Wire) — pour la communication I2C  
+- [LiquidCrystal_I2C.h](https://github.com/johnrickman/LiquidCrystal_I2C) — pour contrôler l’écran LCD I2C
 
-1. Téléversez le fichier `sensorLCD.ino` sur votre Arduino.  
-2. Ouvrez le Moniteur Série pour voir les mesures en cm.  
-3. L'écran LCD affichera la distance mesurée en temps réel.  
+Ces librairies doivent être installées via le gestionnaire de bibliothèques Arduino.
 
-## Remarques
+## Fonctionnement du code
 
-- Vous pouvez ajuster le délai dans le code (`delay(500)`) pour mettre à jour l'affichage plus ou moins fréquemment.  
-- Assurez-vous que l'adresse I2C de votre écran LCD correspond à celle définie dans le code (`0x27` par défaut).  
+1. Initialise la communication série et l’écran LCD.
+2. Configure les pins du capteur et de l’alarme.
+3. Dans la boucle principale :
+   - Mesure la distance avec le capteur à ultrasons.
+   - Affiche la distance sur l’écran LCD.
+   - Si la distance est inférieure au seuil de danger (`danger = 100 cm`) :
+     - Affiche `Warning` sur l’écran.
+     - Active le buzzer.
+   - Sinon, l’écran et le buzzer sont désactivés.
+4. Mise à jour toutes les 500 ms.
+
+## Exemple de sortie série
+
