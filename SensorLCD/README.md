@@ -45,4 +45,4 @@ Ces librairies doivent être installées via le gestionnaire de bibliothèques A
 
 ## Exemple de sortie série
 
-[Voir le schéma PDF](sensorLCD.png)
+<img src="sensorLCD.png" width="400">
