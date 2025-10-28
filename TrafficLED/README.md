@@ -13,6 +13,7 @@ Chaque LED s’allume pendant une durée spécifique, reproduisant le fonctionne
 - Fils de connexion
 - Breadboard
 
+## Schéma de câblage
 | Composant | Pin Arduino |
 |-----------|------------|
 | LED Rouge | 2          |
