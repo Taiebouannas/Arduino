@@ -16,9 +16,9 @@ Chaque LED s’allume pendant une durée spécifique, reproduisant le fonctionne
 ## Schéma de câblage
 | Composant | Pin Arduino |
 |-----------|------------|
-| LED Rouge | 2          |
-| LED Jaune | 3          |
-| LED Verte | 4          |
+| LED Rouge | Pin 2      |
+| LED Jaune | Pin 3      |
+| LED Verte | Pin 4      |
 
 > **Remarque :** utilisez des résistances pour protéger les LEDs.
 
