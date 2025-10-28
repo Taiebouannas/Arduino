@@ -12,7 +12,7 @@ Les projets vont de l’allumage simple d’une LED à la lecture de capteurs ou
 - [TrafficLED](TrafficLED) – Simulation d’un feu de circulation avec 3 LEDs (Rouge, Jaune, Vert).  
 - [SensorLCD](SensorLCD) – Mesure de distance avec capteur et affichage sur écran LCD I2C + alarme si danger.
 
-- [WeatherDHT](WeatherDHT) - Mesure de la température et de l’humidité avec capteur DHT22 et affichage sur écran LCD I2C.
+-   [WeatherDHT](WeatherDHT) - Mesure de la température et de l’humidité avec capteur DHT22 et affichage sur écran LCD I2C.
 
 
 ## Comment utiliser ce dépôt
