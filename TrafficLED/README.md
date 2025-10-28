@@ -13,11 +13,13 @@ Chaque LED s’allume pendant une durée spécifique, reproduisant le fonctionne
 - Fils de connexion
 - Breadboard
 
-## Schéma de montage
-- Connecter la LED rouge à la broche **2** via une résistance
-- Connecter la LED jaune à la broche **3** via une résistance
-- Connecter la LED verte à la broche **4** via une résistance
-- Les cathodes des LEDs doivent être reliées au **GND** de l’Arduino
+| Composant | Pin Arduino |
+|-----------|------------|
+| LED Rouge | 2          |
+| LED Jaune | 3          |
+| LED Verte | 4          |
+
+> **Remarque :** utilisez des résistances pour protéger les LEDs.
 
 ## Fichier
 - `trafficLED.ino` – Code principal qui contrôle le feu de circulation
