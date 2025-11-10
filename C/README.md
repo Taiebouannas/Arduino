@@ -20,16 +20,16 @@ Les programmes abordent des concepts fondamentaux tels que :
 
 ## Liste des programmes
 
-- **MatriceInverse.c** – Calcul de l’inverse d’une matrice 3×3 saisie par l’utilisateur.  
-- **PassGen.c** – Générateur de mot de passe aléatoire avec option de copier dans le presse-papier.
+- [**MatriceInverse.c**](./MatriceInverse.c) – Calcul de l’inverse d’une matrice 3×3 saisie par l’utilisateur.  
+- [**PassGen.c**](./PassGen.c) – Générateur de mot de passe aléatoire avec option de copier dans le presse-papier.
 
 ---
 
 ## Comment utiliser ce dossier
 
-1. Choisissez le programme que vous souhaitez tester.  
-2. Ouvrez le fichier `.c` correspondant dans votre éditeur de texte ou IDE préféré (par exemple : VS Code, Code::Blocks, ou un terminal).  
-3. Compilez le programme avec la commande suivante :
+1. Cliquez sur le programme que vous souhaitez tester pour accéder au fichier.  
+2. Ouvrez le fichier `.c` dans votre éditeur de texte ou IDE préféré (VS Code, Code::Blocks, ou terminal).  
+3. Compilez le programme avec la commande :
 
    ```bash
    gcc nom_du_fichier.c -o programme
