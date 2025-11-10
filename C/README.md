@@ -1,7 +1,7 @@
 # Mes Programmes en Langage C
 
 Bienvenue dans mon dossier GitHub regroupant différents programmes écrits en **langage C**.  
-Chaque programme se trouve dans un dossier ou un fichier dédié, accompagné de commentaires expliquant son fonctionnement.
+Chaque programme se trouve dans un fichier dédié, accompagné de commentaires expliquant son fonctionnement.
 
 ---
 
@@ -20,8 +20,8 @@ Les programmes abordent des concepts fondamentaux tels que :
 
 ## Liste des programmes
 
-Aucun programme pour le moment.  
-Les futurs projets seront ajoutés ici avec une courte description de leur objectif et de leur fonctionnement.
+- **MatriceInverse.c** – Calcul de l’inverse d’une matrice 3×3 saisie par l’utilisateur.  
+- **PassGen.c** – Générateur de mot de passe aléatoire avec option de copier dans le presse-papier.
 
 ---
 
