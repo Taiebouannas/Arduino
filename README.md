@@ -1,27 +1,44 @@
-# Arduino
-# Mes Projets Arduino
+# Projet Personnel : Expérimentations Arduino & ESP32
 
-Bienvenue dans mon dépôt GitHub regroupant plusieurs projets Arduino que j'ai réalisés.  
-Chaque projet se trouve dans un dossier dédié et possède son propre README pour les instructions détaillées.
+Bienvenue dans mon dépôt GitHub dédié à mes expérimentations et projets personnels autour des microcontrôleurs **Arduino** et **ESP32**.  
+Ce dépôt a pour objectif de centraliser mes tests, prototypes et réalisations électroniques afin d’explorer différentes fonctionnalités matérielles et logicielles.
 
-## Description générale
-Ce dépôt contient différents projets permettant de découvrir et d’expérimenter avec Arduino.  
-Les projets vont de l’allumage simple d’une LED à la lecture de capteurs ou au contrôle de capteurs et feux de circulation.
+---
 
-## Liste des projets
-- [TrafficLED](TrafficLED) – Simulation d’un feu de circulation avec 3 LEDs (Rouge, Jaune, Vert).  
-- [SensorLCD](SensorLCD) – Mesure de distance avec capteur HC-SR04 et affichage sur écran LCD I2C + alarme si danger.
+## Structure du dépôt
 
--   [WeatherDHT](WeatherDHT) - Mesure de la température et de l’humidité avec capteur DHT22 et affichage sur écran LCD I2C.
+Le dépôt est organisé en plusieurs branches et dossiers thématiques :
 
+- **Arduino/** – Contient l’ensemble de mes projets et expérimentations réalisés avec les cartes Arduino.  
+  Chaque projet possède son propre dossier et un fichier `README.md` détaillant le montage et le code associé.  
+
+- **ESP32/** – Regroupe les projets développés sur microcontrôleur ESP32, notamment ceux liés à la connectivité Wi-Fi, Bluetooth, ou à l’Internet des objets (IoT).
+
+---
+
+## Objectifs du projet
+
+- Apprentissage et approfondissement de la programmation embarquée.  
+- Découverte de différents capteurs et modules électroniques.  
+- Conception de petits systèmes automatisés et connectés.  
+- Documentation et partage des expériences pour réutilisation future.
+
+---
+
+## Exemple de projets
+
+### Dans la branche Arduino :
+- **TrafficLED** – Simulation d’un feu de circulation avec trois LEDs (Rouge, Jaune, Vert).  
+- **SensorLCD** – Mesure de distance avec capteur **HC-SR04** et affichage sur écran **LCD I2C**.  
+- **WeatherDHT** – Mesure de température et d’humidité avec capteur **DHT22**.
+
+### Dans la branche ESP32 :
+
+---
 
 ## Comment utiliser ce dépôt
-1. Naviguez dans le dossier du projet qui vous intéresse.
-2. Lisez le README spécifique à ce projet pour les instructions d’utilisation et de montage.
-3. Téléversez le fichier `.ino` correspondant sur votre carte Arduino via l’IDE Arduino.
 
-## Auteur
-Ouannas Taieb
-
-## Licence
-Licence MIT
+1. Clonez ou téléchargez le dépôt sur votre machine.  
+2. Naviguez vers la branche ou le dossier correspondant à la plateforme qui vous intéresse (`Arduino` ou `ESP32`).  
+3. Consultez le fichier `README.md` du projet choisi pour obtenir les instructions de montage et d’utilisation.  
+4. Ouvrez le fichier `.ino` (ou `.cpp` pour ESP32) dans l’IDE approprié et télév
