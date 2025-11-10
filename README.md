@@ -44,4 +44,4 @@ Le dépôt est organisé en plusieurs branches et dossiers thématiques :
 1. Clonez ou téléchargez le dépôt sur votre machine.  
 2. Naviguez vers la branche ou le dossier correspondant à la plateforme qui vous intéresse (`Arduino` ou `ESP32`).  
 3. Consultez le fichier `README.md` du projet choisi pour obtenir les instructions de montage et d’utilisation.  
-4. Ouvrez le fichier `.ino` (ou `.cpp` pour ESP32) dans l’IDE approprié et télév
+4. Ouvrez le fichier `.ino` (ou `.cpp` pour ESP32) dans l’IDE approprié et téléversez-le (Upload) sur la carte.
