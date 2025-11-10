@@ -9,12 +9,12 @@ Ce dépôt a pour objectif de centraliser mes tests, prototypes et réalisations
 
 Le dépôt est organisé en plusieurs branches et dossiers thématiques :
 
-- [**Arduino/**](./Arduino/) – Contient l’ensemble de mes projets et expérimentations réalisés avec les cartes Arduino.  
+- [**Arduino/**](./Arduino) – Contient l’ensemble de mes projets et expérimentations réalisés avec les cartes Arduino.  
   Chaque projet possède son propre dossier et un fichier `README.md` détaillant le montage et le code associé.  
 
-- [**ESP32/**](./ESP32/) – Regroupe les projets développés sur microcontrôleur ESP32, notamment ceux liés à la connectivité Wi-Fi, Bluetooth, ou à l’Internet des objets (IoT).
+- [**ESP32/**](./ESP32) – Regroupe les projets développés sur microcontrôleur ESP32, notamment ceux liés à la connectivité Wi-Fi, Bluetooth, ou à l’Internet des objets (IoT).
 
-- [**C/**](./C/) – Contient des programmes simples en langage C, destinés à l’apprentissage des bases de la programmation procédurale et des structures de données.
+- [**C/**](./C) – Contient des programmes simples en langage C, destinés à l’apprentissage des bases de la programmation procédurale et des structures de données.
 
 
 ---
