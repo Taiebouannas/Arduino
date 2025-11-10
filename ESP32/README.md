@@ -6,7 +6,7 @@ Chaque projet sera organisé dans un dossier séparé et disposera de son propre
 ---
 
 ## Description générale
-@
+
 Ce dossier regroupe mes futurs projets réalisés avec le microcontrôleur **ESP32**.  
 L’objectif est d’explorer ses différentes fonctionnalités :  
 - Connexion Wi-Fi et Bluetooth  
@@ -27,4 +27,17 @@ Les futurs projets apparaîtront ici au fur et à mesure de leur développement.
 
 1. Naviguez dans le sous-dossier du projet ESP32 que vous souhaitez explorer.  
 2. Consultez le fichier `README.md` associé pour les détails de montage, de configuration et de téléversement.  
-3. Ouvrez le fichier `.ino` ou `.cpp` correspondant dans l’IDE Arduino (
+3. Ouvrez le fichier `.ino` ou `.cpp` correspondant dans l’IDE Arduino (ou VS Code avec PlatformIO) et téléversez le code sur votre carte **ESP32**.
+
+---
+
+## Auteur
+
+**Ouannas Taieb**
+
+---
+
+## Licence
+
+Ce dossier est publié sous la **Licence MIT**.  
+Vous êtes libre d’utiliser, modifier et partager le code, à condition de mentionner l’auteur original.
