@@ -6,7 +6,7 @@ Chaque projet sera organisé dans un dossier séparé et disposera de son propre
 ---
 
 ## Description générale
-
+@
 Ce dossier regroupe mes futurs projets réalisés avec le microcontrôleur **ESP32**.  
 L’objectif est d’explorer ses différentes fonctionnalités :  
 - Connexion Wi-Fi et Bluetooth  
