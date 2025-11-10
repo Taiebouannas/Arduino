@@ -37,6 +37,8 @@ Le dépôt est organisé en plusieurs branches et dossiers thématiques :
 
 ### Dans la branche ESP32 :
 
+Aucun projet pour le moment.  
+
 ---
 
 ## Comment utiliser ce dépôt
