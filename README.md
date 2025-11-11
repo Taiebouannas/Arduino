@@ -14,7 +14,7 @@ Le dépôt est organisé en plusieurs branches et dossiers thématiques :
 
 - [**ESP32**](./ESP32/) – Regroupe les projets développés sur microcontrôleur ESP32, notamment ceux liés à la connectivité Wi-Fi, Bluetooth, ou à l’Internet des objets (IoT).  
 
-- [**C**](./Programs-C/) – Contient des programmes simples en langage C, destinés à l’apprentissage des bases de la programmation procédurale et des structures de données.
+- [**Programs-C**](./Programs-C/) – Contient des programmes simples en langage C, destinés à l’apprentissage des bases de la programmation procédurale et des structures de données.
 
 
 ---
