@@ -36,8 +36,7 @@ Le dépôt est organisé en plusieurs branches et dossiers thématiques :
 - **WeatherDHT** – Mesure de température et d’humidité avec capteur **DHT22**.
 
 ### Dans la branche ESP32 :
-
-Aucun projet pour le moment.  
+- **TrafficLED** – Simulation d’un feu de circulation avec trois LEDs (Rouge, Jaune, Vert) en utilisant FreeRTOS pour gérer les temporisations et le contrôle des sorties.
 
 ---
 
