@@ -8,10 +8,10 @@ Chaque projet sera organisé dans un dossier séparé et disposera de son propre
 ## Description générale
 
 Ce dossier regroupe mes futurs projets réalisés avec le microcontrôleur **ESP32**.  
+
 L’objectif est d’explorer ses différentes fonctionnalités :  
-- Connexion Wi-Fi et Bluetooth  
-- Communication via protocoles IoT (HTTP, MQTT, WebSocket, etc.)  
-- Gestion de capteurs et actionneurs  
+
+- Gestion de capteurs et d’actionneurs  
 - Développement d’applications embarquées connectées
 
 ---
