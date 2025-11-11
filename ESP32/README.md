@@ -26,7 +26,12 @@ L’objectif est d’explorer ses différentes fonctionnalités :
 
 1. Naviguez dans le sous-dossier du projet ESP32 que vous souhaitez explorer.  
 2. Consultez le fichier `README.md` associé pour les détails de montage, de configuration et de téléversement.  
-3. Ouvrez le fichier `.ino` ou `.cpp` correspondant dans l’IDE Arduino (ou VS Code avec PlatformIO) et téléversez le code sur votre carte **ESP32**.
+3. Ouvrez le fichier `.ino` ou `.c/.cpp` correspondant dans l’environnement de votre choix :  
+   - **Arduino IDE**  
+   - **PlatformIO (VS Code)**  
+   - **ESP-IDF**  
+
+4. Téléversez le code sur votre carte **ESP32** et observez le fonctionnement du feu tricolore.
 
 ---
 
