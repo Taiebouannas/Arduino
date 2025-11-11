@@ -18,8 +18,7 @@ L’objectif est d’explorer ses différentes fonctionnalités :
 
 ## Liste des projets
 
-Aucun projet pour le moment.  
-Les futurs projets apparaîtront ici au fur et à mesure de leur développement.
+- [TrafficLED](TrafficLED) – Simulation d’un feu de circulation avec trois LEDs (rouge, jaune, vert) utilisant **FreeRTOS** pour gérer les temporisations.
 
 ---
 
